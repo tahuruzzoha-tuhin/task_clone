@@ -8,7 +8,6 @@ const task_input = document.getElementById('task-input');
 const task_list = document.getElementById('task-list');
 
 
-console.log(task_list.children)
 
 // Add click event
 
