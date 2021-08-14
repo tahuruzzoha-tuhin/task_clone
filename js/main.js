@@ -7,7 +7,6 @@ const task_input = document.getElementById('task-input');
 const task_list = document.getElementById('task-list');
 
 
-
 // Add click event
 
 add_task.addEventListener("click", () => {
@@ -17,6 +16,9 @@ add_task.addEventListener("click", () => {
     task_list.appendChild(li);
     task_input.value = '';
 });
+
+
+// Delete event
 
 task_list.addEventListener('click',  (event) => {
     event.target.parentNode.removeChild(event.target);
