@@ -19,3 +19,7 @@ add_task.addEventListener("click", () => {
     task_list.appendChild(li);
     task_input.value = '';
 });
+
+task_list.addEventListener('click',  (event) => {
+    event.target.parentNode.removeChild(event.target);
+})
