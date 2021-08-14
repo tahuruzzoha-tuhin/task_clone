@@ -1,5 +1,4 @@
 console.log("It's working..!");
-let tasks = [];
 
 // Get all required elements
 
